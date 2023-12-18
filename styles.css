@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'standard';
+    src: url(fonts/Standard-Book.woff2);
+}
+@font-face {
+    font-family: 'times now';
+    src: url(fonts/TimesNow-Light.woff2);
+}
+
+body{
+    font-family: 'standard';
+    text-rendering: optimizeLegibility;
+    font-size: 18px;
+    background-color: #b1caf0;
+}
+
+h1{
+    font-family: 'times now';
+}
+
+.container{
+    display:flex;
+    width: 100%;
+    margin:auto;
+    height: 90%;
+    padding: 20px;
+}
+
+a{
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+
+#prev{
+    width: 10%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#next{
+    width:10%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#left-page{
+    width:40%;
+}
+
+#right-page{
+    width:40%;
+}
+
+.cover{
+    position: relative;
+    right: 0;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    margin: auto;
+    justify-content: center;
+    height: 80%;
+}
+
+.grid-container div {
+    overflow: hidden;
+}
