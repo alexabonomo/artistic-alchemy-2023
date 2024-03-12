@@ -13,9 +13,16 @@ body{
     font-size: 18px;
     background-color: #b1caf0;
 }
+.cover{
+    color: #b1caf0;
+    display: flex;
+    align-items: end;
+}
 
-h1{
-    font-family: 'times now';
+.title{
+    font-family: 'standard';
+    padding: 50px;
+
 }
 
 .container{
@@ -57,11 +64,6 @@ a:visited{
 
 #right-page{
     width:40%;
-}
-
-.cover{
-    position: relative;
-    right: 0;
 }
 
 .grid-container{
